@@ -4,4 +4,4 @@ The task is to predict the ratings based on the 5-core [dataset](http://jmcauley
 
 I found that the logistic regression model based on review (including summary) text is most effective to predict the class correctly (highest accuracy). The matrix factorization model alone has worse accuracy and worse root mean square error (RMSE) than logistic regression, but combining matrix factorization prediction into logistic regression prediction can leads to a better RMSE score while keeping the accuracy at the highest level.
 
-Please see the [ipython notebook](https://github.com/seedlingfl/Review-Rating-Prediction/RatingPrediction_YuheZhang.ipynb) for details.
+Please see the [ipython notebook](https://github.com/seedlingfl/Review-Rating-Prediction/blob/master/RatingPrediction_YuheZhang.ipynb) for details.
